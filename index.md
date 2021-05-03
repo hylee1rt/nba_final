@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# NBA Draft Analysis (2010-2021).
 
-You can use the [editor on GitHub](https://github.com/hylee1rt/nba_final/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Prior to every NBA (National Basketball Association) season, NBA teams select new players out of college and international
+leagues in a draft. Ultimately, 60 players are selected in order from pick 1 through 60. The purpose of our analysis/study is to
+examine the relationship between which pick a player was selected with and that players 1st year performance. To do this,
+we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s
+descriptive statistics (ex. age, college attended, etc), and that player’s rookie year statistics (ex. assists, blocks, points per
+game, etc). We believed that we could get a good sense of a player performance by looking at a player’s season and per
+game statistics. Using the data, we first created a correlation matrix with selected features within our dataset to get a sense
+of the underlying relationships within the data. Utilizing the correlation matrix and further visualizations we will seek to
+understand the deeper relationships between our variables, with an important focus on the relationship between a player’s
+pick and that players rookie statistics.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our dataset has 32 columns, and 660 rows. Due to having a high number of features, it
+is important that we focus in and pinpoint the specific features we are trying to examine in relationship to
+when a player is picked. It is important that we do not get lost in potentially redundant data or irrelevant
+data within our dataset. The correlation matrix we have currently only contains 14 out of the 32 features, so
+our next steps would be to hone in on the variables that we want to further examine (whether that be
+by adding more features or take away features from the correlation matrix).
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hylee1rt/nba_final/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<img width="1347" alt="data" src="https://user-images.githubusercontent.com/66886936/116904257-77d50900-ac0b-11eb-98a3-820409fd772d.png">
