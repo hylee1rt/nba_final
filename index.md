@@ -13,6 +13,6 @@ by adding more features or take away features from the correlation matrix).
 
 <img width="1347" alt="data" src="https://user-images.githubusercontent.com/66886936/116904257-77d50900-ac0b-11eb-98a3-820409fd772d.png">
 
-We believed that we could get a good sense of a player’s performance by looking at a player’s season and per-game statistics. Using the data, we first created a correlation matrix with selected features within our dataset to get a sense of the underlying relationships within the data. 
+
 
 ![download (1)](https://user-images.githubusercontent.com/66886936/116953555-9531c380-ac5b-11eb-91dc-02173b6067e2.png)
