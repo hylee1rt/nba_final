@@ -50,7 +50,9 @@ We also wanted to examine the relationship between the state that players played
 
 <img width="1762" alt="Dashboard 1 (1)" src="https://user-images.githubusercontent.com/66886936/116958289-142cf900-ac68-11eb-89a9-67117ed5c4e5.png">
 
-We also wanted to look into the performance of NBA teams themselves, specifically how well they draft. This map shows each NBA team's location and the average first year points per game of their draft picks. The map reveals that a few teams, particularly the Charlotte Hornets, the Washington Wizards, the Cleveland Cavaliers, and the New York Knicks, generally pick players that average higher points per game in their first year than the rest of the NBA teams.<img width="1762" alt="Dashboard 2 (1)" src="https://user-images.githubusercontent.com/66886936/116958298-20b15180-ac68-11eb-9873-0a8249722789.png">
+We also wanted to look into the performance of NBA teams themselves, specifically how well they draft. This map shows each NBA team's location and the average first year points per game of their draft picks. The map reveals that a few teams, particularly the Charlotte Hornets, the Washington Wizards, the Cleveland Cavaliers, and the New York Knicks, generally pick players that average higher points per game in their first year than the rest of the NBA teams.
+
+<img width="1762" alt="Dashboard 2 (1)" src="https://user-images.githubusercontent.com/66886936/116958298-20b15180-ac68-11eb-9873-0a8249722789.png">
 
 
 
