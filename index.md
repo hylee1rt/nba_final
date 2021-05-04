@@ -1,4 +1,4 @@
-# NBA Draft Analysis (2010-2021).
+# NBA Draft Analysis (2010-2021)
 
 Once per year, prior to every NBA (National Basketball Association) season, NBA teams select new players out of college and international leagues in a draft. Ultimately, 60 players are selected in  order from pick 1 through 60. The purpose of our analysis/study is to examine the relationship between  which pick a player was selected with and that player’s 1st year performance and will be looking at the  last 11 drafts (2010-2021). To do this, we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s descriptive statistics (ex. age, college attended, state of college attended, etc.), and that player’s rookie year statistics (ex. assists, blocks, points per game, etc.).
 
@@ -12,3 +12,7 @@ by adding more features or take away features from the correlation matrix).
 
 
 <img width="1347" alt="data" src="https://user-images.githubusercontent.com/66886936/116904257-77d50900-ac0b-11eb-98a3-820409fd772d.png">
+
+We believed that we could get a good sense of a player’s performance by looking at a player’s season and per-game statistics. Using the data, we first created a correlation matrix with selected features within our dataset to get a sense of the underlying relationships within the data. 
+
+![download (1)](https://user-images.githubusercontent.com/66886936/116953555-9531c380-ac5b-11eb-91dc-02173b6067e2.png)
