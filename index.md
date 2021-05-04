@@ -24,19 +24,23 @@ In order to examine the average performance of each draft pick over the last ele
 
 Since each NBA draft is broken into round one (picks 1-30) and round two (picks 31-60), we wanted to see if there was a significant difference in performance by round and expand on some of the insights from the line chart. We decided to perform TSNE on the NBA first-year performance by round to examine this idea. From the visualization we can see that while there is some overlap, rounds one and two are clustered. This suggests that players selected in round one generally perform like other players selected in round one with a similar relationship evident between round two players. Further this suggests that occasionally, a player selected in round one performs more like a player selected in round two and vice versa.  
 
-![nba_tsne](https://user-images.githubusercontent.com/66886936/116956986-a3d0a880-ac64-11eb-99cf-4da65f097720.png)
 
 
 Similar to the TSNE analysis, we decided to perform PCA to examine first-year performance by round. Our results show more overlap than in the TSNE plot, however, there is still evident clustering for each round, which further supports our hypothesis from our TSNE analysis that players selected in round one can be generally differentiated from players selected in round two by looking at the player’s per-game statistics. 
 
 
-![nba_pca](https://user-images.githubusercontent.com/66886936/116957223-57399d00-ac65-11eb-8097-b2e5a56908bc.png)
+
+
+|TSNE                        | PCA   | 
+|--------------------------------|--------------------|
+|<img width="400" alt="nba_tsne" src="https://user-images.githubusercontent.com/66886936/116956986-a3d0a880-ac64-11eb-99cf-4da65f097720.png"> | <img width="400" alt="nba_pca" src="https://user-images.githubusercontent.com/66886936/116957223-57399d00-ac65-11eb-8097-b2e5a56908bc.png"> |
+
 
 We wanted to further examine what differentiated round one picks and round two picks, so we looked at the age distributions of each round. The box plots reveal that the median age of players selected in round one is much lower than in round two. The median age for round one is twenty, while the median age for round two is twenty-two. Further the average age of players selected in round one are also substantially lower when compared to players selected in round two. This shows us that younger players are more likely to be picked earlier in the draft. Additionally the distribution of age of round one picks is right skewed, showing that while the majority of players were young, with many as young as nineteen, there were a few very old players making the distribution positively skewed. The distribution of age of round two picks appears normal, with a single outlier, but should be noted that the distribution is slightly left skewed as the mean is less than the mean.
 
 Additionally, we looked at the average points per game distributions by round. The box plot for round one shows that several players picked in the first round performed exceptionally well. These outliers reveal that round one picks have significantly higher ceilings than those picked in round two. Furthermore, the mean and median for the average points per game for round one picks are also noticeably higher than the mean and medians for the average points per game for round two picks. This further suggests that on average, players in round one score more points per game on average than players selected in round two. It should also be noted that both the distribution for round one and round two picks are slightly right skewed. 
 
-|TSNE                        | PCA   | 
+|Age                        | round   | 
 |--------------------------------|--------------------|
 |<img width="400" alt="rhlee@email wm edu (1)" src="https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png"> | <img width="400" alt="rhlee@email wm edu (2)" src="https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png"> |
 
