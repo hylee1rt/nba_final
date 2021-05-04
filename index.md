@@ -50,7 +50,7 @@ From our PCA loadings, we can see that there are a few variables with high propo
 <img width="828" alt="Capture" src="https://user-images.githubusercontent.com/66886936/116958471-c5cc2a00-ac68-11eb-851c-319d5a1b22a7.PNG">
 
 
-The figure below shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states.
+* The figure below shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states.
 
 
 <img width="1762" alt="Dashboard 1 (1)" src="https://user-images.githubusercontent.com/66886936/116958289-142cf900-ac68-11eb-89a9-67117ed5c4e5.png">
