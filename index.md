@@ -1,4 +1,4 @@
-# NBA Draft Analysis (2010-2021)
+# NBA Draft Analysis (2010-2021) 
 Once per year, prior to every NBA (National Basketball Association) season, NBA teams select  
 new players out of college and international leagues in a draft. Ultimately, 60 players are selected in  order from pick 1 through 60. The purpose of our analysis/study is to examine the relationship between  which pick a player was selected with and that player’s 1st year performance and will be looking at the  last 11 drafts (2010-2021). Additionally, we also examined the relationship between where a player played college basketball and first year performance, as well as the relationship between the team that drafts the player and first year performance. To accomplish these, we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s descriptive statistics (ex. age, college attended, state of college attended, etc.), and that player’s rookie year statistics (ex. assists, blocks, points per game, etc.).
 
@@ -57,3 +57,6 @@ Lastly, we also wanted to analyze the performance of NBA teams themselves, speci
 
 
 
+
+
+all data was obtained from https://www.basketball-reference.com/.
