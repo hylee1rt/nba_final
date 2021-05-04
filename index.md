@@ -41,7 +41,7 @@ After preprocessing and choosing our variables, we cleaned up our data:
 |--------------------------------|--------------------|
 |<img width="400" alt="rhlee@email wm edu (1)" src="https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png"> | <img width="400" alt="rhlee@email wm edu (2)" src="https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png"> |
 
-Further, we looked to examine the relationship between the state that players played college basketball in and their average first year performances, so we created a heatmap of the average points per game of drafted players by the state that they played college basketball in. The visualization shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states. In order to do that, we added a couple of new columns to our data:
+* Further, we looked to examine the relationship between the state that players played college basketball in and their average first year performances, so we created a heatmap of the average points per game of drafted players by the state that they played college basketball in. The visualization shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states. In order to do that, we added a couple of new columns to our data:
 
 <img width="828" alt="Capture" src="https://user-images.githubusercontent.com/66886936/116958471-c5cc2a00-ac68-11eb-851c-319d5a1b22a7.PNG">
 
@@ -51,7 +51,7 @@ The figure below shows that players who were drafted from the state of Alabama p
 
 <img width="1762" alt="Dashboard 1 (1)" src="https://user-images.githubusercontent.com/66886936/116958289-142cf900-ac68-11eb-89a9-67117ed5c4e5.png">
 
-Lastly, we also wanted to analyze the performance of NBA teams themselves, specifically how well they draft. This map shows each NBA team's location and the average first year points per game of their draft picks. The map reveals that a few teams, particularly the Charlotte Hornets, the Washington Wizards, the Cleveland Cavaliers, and the New York Knicks, generally pick players that average higher points per game in their first year than the rest of the NBA teams.
+* Lastly, we also wanted to analyze the performance of NBA teams themselves, specifically how well they draft. This map shows each NBA team's location and the average first year points per game of their draft picks. The map reveals that a few teams, particularly the Charlotte Hornets, the Washington Wizards, the Cleveland Cavaliers, and the New York Knicks, generally pick players that average higher points per game in their first year than the rest of the NBA teams.
 
 <img width="1762" alt="Dashboard 2 (1)" src="https://user-images.githubusercontent.com/66886936/116958298-20b15180-ac68-11eb-9873-0a8249722789.png">
 
@@ -59,4 +59,4 @@ Lastly, we also wanted to analyze the performance of NBA teams themselves, speci
 
 
 
-all data was obtained from https://www.basketball-reference.com/.
+All data was obtained from https://www.basketball-reference.com/.
