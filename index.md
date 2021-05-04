@@ -1,15 +1,7 @@
 # NBA Draft Analysis (2010-2021).
 
-Prior to every NBA (National Basketball Association) season, NBA teams select new players out of college and international
-leagues in a draft. Ultimately, 60 players are selected in order from pick 1 through 60. The purpose of our analysis/study is to
-examine the relationship between which pick a player was selected with and that players 1st year performance. To do this,
-we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s
-descriptive statistics (ex. age, college attended, etc), and that player’s rookie year statistics (ex. assists, blocks, points per
-game, etc). We believed that we could get a good sense of a player performance by looking at a player’s season and per
-game statistics. Using the data, we first created a correlation matrix with selected features within our dataset to get a sense
-of the underlying relationships within the data. Utilizing the correlation matrix and further visualizations we will seek to
-understand the deeper relationships between our variables, with an important focus on the relationship between a player’s
-pick and that players rookie statistics.
+Once per year, prior to every NBA (National Basketball Association) season, NBA teams select new players out of college and international leagues in a draft. Ultimately, 60 players are selected in  order from pick 1 through 60. The purpose of our analysis/study is to examine the relationship between  which pick a player was selected with and that player’s 1st year performance and will be looking at the  last 11 drafts (2010-2021). To do this, we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s descriptive statistics (ex. age, college attended, state of college attended, etc.), and that player’s rookie year statistics (ex. assists, blocks, points per game, etc.).
+
 
 Our dataset has 32 columns, and 660 rows. Due to having a high number of features, it
 is important that we focus in and pinpoint the specific features we are trying to examine in relationship to
