@@ -43,7 +43,7 @@ From our PCA loadings, we can see that there are a few variables with high propo
 
 * Additionally, we looked at the average points per game distributions by round. The box plot for round one shows that several players picked in the first round performed exceptionally well. These outliers reveal that round one picks have significantly higher ceilings than those picked in round two. Furthermore, the mean and median for the average points per game for round one picks are also noticeably higher than the mean and medians for the average points per game for round two picks. This further suggests that on average, players in round one score more points per game on average than players selected in round two. It should also be noted that both the distribution for round one and round two picks are slightly right skewed. 
 
-|Age                        | Round   | 
+|Age                        | Points   | 
 |--------------------------------|--------------------|
 |<img width="400" alt="rhlee@email wm edu (1)" src="https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png"> | <img width="400" alt="rhlee@email wm edu (2)" src="https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png"> |
 
