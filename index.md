@@ -10,7 +10,8 @@ Our dataset has 32 columns, and 660 rows. Due to having a high number of feature
 
 After preprocessing and choosing our variables, we cleaned up our data:
 
-<img width="608" alt="Untitled2" src="https://user-images.githubusercontent.com/66886936/116955452-8f8aac80-ac60-11eb-9210-803d92b90d59.png">
+<img width="608" alt="Untitled1" src="https://user-images.githubusercontent.com/66886936/116956067-57846900-ac62-11eb-866c-7c676eb3f81f.png">
+
 
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the “pick” variable and its relationship with the other variables and in particular, noticed strong correlations between the order in the draft that the player was selected and that players first year per-game statistics. In the case of our data, a negative correlation with pick means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game, rebounds per game, and assists per game, and examined these variables through a variety of other visualizations. 
 
