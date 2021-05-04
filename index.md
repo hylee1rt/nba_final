@@ -35,13 +35,13 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 We wanted to further examine what differentiated round one picks and round two picks, so we looked at the age distributions of each round. The box plots reveal that the median age of players selected in round one is much lower than in round two. The median age for round one is twenty, while the median age for round two is twenty-two. Further the average age of players selected in round one are also substantially lower when compared to players selected in round two. This shows us that younger players are more likely to be picked earlier in the draft. Additionally the distribution of age of round one picks is right skewed, showing that while the majority of players were young, with many as young as nineteen, there were a few very old players making the distribution positively skewed. The distribution of age of round two picks appears normal, with a single outlier, but should be noted that the distribution is slightly left skewed as the mean is less than the mean.
 
 
-![rhlee@email wm edu (1)](https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png)
-
 Additionally, we looked at the average points per game distributions by round. The box plot for round one shows that several players picked in the first round performed exceptionally well. These outliers reveal that round one picks have significantly higher ceilings than those picked in round two. Furthermore, the mean and median for the average points per game for round one picks are also noticeably higher than the mean and medians for the average points per game for round two picks. This further suggests that on average, players in round one score more points per game on average than players selected in round two. It should also be noted that both the distribution for round one and round two picks are slightly right skewed. 
 
+|TSNE                        | PCA   | 
+|--------------------------------|--------------------|
+|![rhlee@email wm edu (1)](https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png)|![rhlee@email wm edu (2)](https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png)|
 
 
-![rhlee@email wm edu (2)](https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png)
 
 
 <img width="1762" alt="Dashboard 2" src="https://user-images.githubusercontent.com/66886936/116956869-5ce2b300-ac64-11eb-9c03-1d57215855d8.png">
