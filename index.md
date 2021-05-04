@@ -20,3 +20,15 @@ The first visualization we created was a correlation matrix with each of the pot
 In order to examine the average performance of each draft pick over the last eleven years, we created a line graph of important per-game statistics. The draft pick number is shown on the x-axis and the y-axis displays the average per-game value for each statistic. We chose to take a deeper look into points-per-game, rebounds-per-game, and assists-per-game, as these stats are often regarded as the most important and because from our correlation matrix, we have pinpointed these variables to have relatively strong negative correlations with the ‘pick’ variable. We can see that earlier picks generally outperform later picks, and in every case, the first round picks display significantly higher statistics.
 
 <img width="800" alt="Dashboard 3" src="https://user-images.githubusercontent.com/66886936/116955535-d8dafc00-ac60-11eb-8735-22430c63f255.png">
+
+
+
+
+
+
+
+
+<img width="1762" alt="Dashboard 2" src="https://user-images.githubusercontent.com/66886936/116956869-5ce2b300-ac64-11eb-9c03-1d57215855d8.png">
+<img width="1762" alt="Dashboard 1" src="https://user-images.githubusercontent.com/66886936/116956877-5f450d00-ac64-11eb-8768-f5e283b72890.png">
+
+
