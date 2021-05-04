@@ -22,6 +22,9 @@ In order to examine the average performance of each draft pick over the last ele
 <img width="800" alt="Dashboard 3" src="https://user-images.githubusercontent.com/66886936/116955535-d8dafc00-ac60-11eb-8735-22430c63f255.png">
 
 
+Since each NBA draft is broken into round one (picks 1-30) and round two (picks 31-60), we wanted to see if there was a significant difference in performance by round and expand on some of the insights from the line chart. We decided to perform TSNE on the NBA first-year performance by round to examine this idea. From the visualization we can see that while there is some overlap, rounds one and two are clustered. This suggests that players selected in round one generally perform like other players selected in round one with a similar relationship evident between round two players. Further this suggests that occasionally, a player selected in round one performs more like a player selected in round two and vice versa.  
+
+![nba_tsne](https://user-images.githubusercontent.com/66886936/116956986-a3d0a880-ac64-11eb-99cf-4da65f097720.png)
 
 
 
