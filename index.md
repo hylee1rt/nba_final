@@ -38,7 +38,7 @@ Additionally, we looked at the average points per game distributions by round. T
 
 |TSNE                        | PCA   | 
 |--------------------------------|--------------------|
-|![rhlee@email wm edu (1)](https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png)|![rhlee@email wm edu (2)](https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png)|
+|<img width="400" alt="rhlee@email wm edu (1)" src="https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png"> | <img width="400" alt="rhlee@email wm edu (2)" src="https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png"> |
 
 We also wanted to examine the relationship between the state that players played college basketball in and their average first year performances, so we created a heatmap of the average points per game of drafted players by the state that they played college basketball in. The visualization shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states.
 
