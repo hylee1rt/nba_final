@@ -17,8 +17,8 @@ Below is a data dictionary for our variables of interest in our analysis (correl
 | Variable   |Description             | 
 |:----------:|:----------------------:|
 | Pk.        | Pick                   |
-| Round      | Round                  |
 | Age        | Age drafted            |
+| Round      | Round                  |
 | PF         | Total fouls            |
 | STL        | Total steals           |
 | BLK        | Total blocks           |
