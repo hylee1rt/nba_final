@@ -57,7 +57,7 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 
 
-From our PCA loadings, we can see that there are a few variables with high proportion of variance (PPG, APG, PF, and TOV), which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
+From our PCA loadings, we can see that there are a few variables with high proportion of variance (PPG, PF, and TOV), which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
 
 <img width="231" alt="pca" src="https://user-images.githubusercontent.com/66886936/118319427-c2d30400-b4c8-11eb-938f-b59464b9bcde.png">
 
