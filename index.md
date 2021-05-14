@@ -9,12 +9,13 @@ We wanted to observe the per-game statistics for each player, so we dropped vari
 
 After preprocessing, our dataset looks like:
 
-<img width="1500" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118314414-1b52d300-b4c2-11eb-82f3-f424fe447c69.png">
+<img width="1500" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118318903-05481100-b4c8-11eb-9ed3-1c9ae5d3d854.png">
+
 
 Below is a data dictionary for our variables of interest in our analysis (correlation matrix, PCA, TSNE, etc):
 
 | Variable   |Description             | 
-|------------|------------------------|
+|:----------:|:----------------------:|
 | Pk.        | Pick                   |
 | Round      | Round                  |
 | Age        | Age drafted            |
@@ -33,7 +34,7 @@ Below is a data dictionary for our variables of interest in our analysis (correl
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the pick (pk) variable and its relationship with the other variables. We noticed strong correlations between the order in the draft that the player was selected and that player’s first year statistics. In the case of our data, a negative correlation with pick (pk) means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game (PPG), rebounds per game (RPG), and assists per game (APG), and examined these variables through a variety of other visualizations.
 
 
-<img width="600" alt="nbaheatmap (2)" src="https://user-images.githubusercontent.com/66886936/118314179-c4e59480-b4c1-11eb-9656-8fe469a36180.png">
+<img width="600" alt="nbaheatmap (3)" src="https://user-images.githubusercontent.com/66886936/118318978-1c86fe80-b4c8-11eb-8836-e1cb8c03f1b8.png">
 
 
 
@@ -51,14 +52,13 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 |     TSNE                        |   PCA   | 
 |:--------------------------------:|:--------------------:|
-|<img width="400" alt="nba_tsne (1)" src="https://user-images.githubusercontent.com/66886936/118314258-e5155380-b4c1-11eb-9896-597db46a0ef7.png"> | <img width="400" alt="nba_pca (1)" src="https://user-images.githubusercontent.com/66886936/118314236-daf35500-b4c1-11eb-9cf2-3bc478a7a5e5.png"> |
-
+|<img width="400" alt="nba_tsne (2)" src="https://user-images.githubusercontent.com/66886936/118319261-830c1c80-b4c8-11eb-8080-f47c44105e3f.png"> | <img width="400" alt="nba_pca (2)" src="https://user-images.githubusercontent.com/66886936/118319132-5e17a980-b4c8-11eb-88af-ef565b762bfa.png"> |
 
 
 
 From our PCA loadings, we can see that there are a few variables with high proportion of variance (PPG, APG, PF, and TOV), which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
 
-<img width="231" alt="loadings" src="https://user-images.githubusercontent.com/66886936/116959370-72a7a680-ac6b-11eb-875a-490e688f360f.png">
+<img width="231" alt="pca" src="https://user-images.githubusercontent.com/66886936/118319427-c2d30400-b4c8-11eb-938f-b59464b9bcde.png">
 
 
 We wanted to further examine what differentiated round one picks and round two picks, so we looked at the age distributions of each round. The box plots reveal that the median age of players selected in round one is much lower than in round two. The median age for round one is twenty, while the median age for round two is twenty-two. Further the average age of players selected in round one are also substantially lower when compared to players selected in round two. This shows us that younger players are more likely to be picked earlier in the draft. Additionally the distribution of age of round one picks is right skewed, showing that while the majority of players were young, with many as young as nineteen, there were a few very old players making the distribution positively skewed. The distribution of age of round two picks appears normal, with a single outlier, but should be noted that the distribution is slightly left skewed as the mean is less than the mean. Additionally, we looked at the average points per game distributions by round. The box plot for round one shows that several players picked in the first round performed exceptionally well. These outliers reveal that round one picks have significantly higher ceilings than those picked in round two. Furthermore, the mean and median for the average points per game for round one picks are also noticeably higher than the mean and medians for the average points per game for round two picks. This further suggests that on average, players in round one score more points per game on average than players selected in round two. It should also be noted that both the distribution for round one and round two picks are slightly right skewed. 
