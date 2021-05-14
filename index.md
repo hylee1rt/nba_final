@@ -32,7 +32,7 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 |     TSNE                        |   PCA   | 
 |:--------------------------------:|:--------------------:|
-|<img width="400" alt="nba_tsne (1)" src="https://user-images.githubusercontent.com/66886936/118314258-e5155380-b4c1-11eb-9896-597db46a0ef7.pngg"> | <img width="400" alt="nba_pca (1)" src="https://user-images.githubusercontent.com/66886936/118314236-daf35500-b4c1-11eb-9cf2-3bc478a7a5e5.png"> |
+|<img width="400" alt="nba_tsne (1)" src="https://user-images.githubusercontent.com/66886936/118314258-e5155380-b4c1-11eb-9896-597db46a0ef7.png"> | <img width="400" alt="nba_pca (1)" src="https://user-images.githubusercontent.com/66886936/118314236-daf35500-b4c1-11eb-9cf2-3bc478a7a5e5.png"> |
 
 
 
