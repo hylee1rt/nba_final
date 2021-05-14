@@ -5,11 +5,29 @@ new players both from college and international leagues in a draft. Ultimately, 
 
 Our dataset originally had 32 columns, and 660 rows. Due to having a high number of features, it was important to focus in and pinpoint the specific features that relate to when a player is picked. We made it a priority to exclude irrelevant or potentially redundant data within our dataset. 
 
-We wanted to observe the per-game statistics for each player, so we dropped variables that were redundant (repetitive columns with different names) or not quantitative (such as name and college). Players with NULL values in their statistics did not play their first year, so we dropped those players. We ended up with 529 rows and 15 columns. 
+We wanted to observe the per-game statistics for each player, so we dropped variables that were redundant (repetitive columns with different names) or not quantitative (such as name and college). Players with NULL values in their statistics did not play their first year, so we dropped those players. We ended up with 529 rows and 13 columns. 
 
 After preprocessing, our dataset looks like:
 
 <img width="1500" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118314414-1b52d300-b4c2-11eb-82f3-f424fe447c69.png">
+
+Below is a data dictionary for our variables of interest in our analysis (correlation matrix, PCA, TSNE, etc):
+
+| Variable   |Description             | 
+|------------|------------------------|
+| Pk.        | Pick                   |
+| Round      | Round                  |
+| Age        | Age drafted            |
+| STL        | Total age              |
+| BLK        | Total blocks           |
+| TOV        | Total turnovers        |
+| PF         | Total fouls            |
+| FG%        | Field goal percentage  |
+| 3P%        | 3-Point percentage     |
+| FT%        | Free throw percentage  |
+| PPG        | Points per game        |
+| RPG        | Rebounds per game      |
+| APG        | Assists per game       |
 
 
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the pick (pk) variable and its relationship with the other variables. We noticed strong correlations between the order in the draft that the player was selected and that player’s first year statistics. In the case of our data, a negative correlation with pick (pk) means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game (PPG), total rebounds (RPG), and total assists (APG), and examined these variables through a variety of other visualizations.
