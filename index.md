@@ -1,17 +1,16 @@
 # NBA Draft Analysis (2010-2021) 
-Once per year, prior to every NBA (National Basketball Association) season, NBA teams select  
-new players out of college and international leagues in a draft. Ultimately, 60 players are selected in  order from pick 1 through 60. The purpose of our analysis/study is to examine the relationship between  which pick a player was selected with and that player’s 1st year performance and will be looking at the  last 11 drafts (2010-2021). Additionally, we also examined the relationship between where a player played college basketball and first year performance, as well as the relationship between the team that drafts the player and first year performance. To accomplish these, we compiled a dataset containing the draft pick a player was selected with, the team that selected the player, that player’s descriptive statistics (ex. age, college attended, state of college attended, etc.), and that player’s rookie year statistics (ex. assists, blocks, points per game, etc.).
+Once per year, prior to every NBA (National Basketball Association) season, NBA teams select
+new players both from college and international leagues in a draft. Ultimately, 60 players are selected in order from pick 1 through 60. The purpose of our analysis/study is to examine the relationship between which pick a player was selected and that player’s 1st year performance. We looked at the last 11 drafts (2010-2021). Additionally, we examined the relationship between where a player played college basketball and first year performance, as well as the relationship between the team that drafts the player and first year performance. To accomplish these goals, we compiled a dataset containing the draft pick a player was selected, the team that selected the player, that player’s descriptive statistics (ex. age, college attended, state of college attended, etc.), and that player’s rookie year statistics (ex. assists, blocks, points per game, etc.).
 
 
+Our dataset originally had 32 columns, and 660 rows. Due to having a high number of features, it was important to focus in and pinpoint the specific features that relate to when a player is picked. We made it a priority to exclude irrelevant or potentially redundant data within our dataset. 
 
-Our dataset has 32 columns, and 660 rows. Due to having a high number of features, it is important that we focus in and pinpoint the specific features we are trying to examine in relationship to when a player is picked. It is important that we do not get lost in potentially redundant data or irrelevant data within our dataset.
+We wanted to observe the per-game statistics for each player, so we dropped variables that were redundant (repetitive columns with different names) or not quantitative (such as name and college). Players with NULL values in their statistics did not play their first year, so we dropped those players. We ended up with 529 rows and 15 columns. 
 
+After preprocessing, our dataset looks like:
 
-<img width="1800" alt="data" src="https://user-images.githubusercontent.com/66886936/116904257-77d50900-ac0b-11eb-98a3-820409fd772d.png">
+<img width="1800" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118307017-2274e380-b4b8-11eb-8dff-2426d98f58b4.png">
 
-After preprocessing and choosing our variables, we cleaned up our data:
-
-<img width="800" alt="Untitled1" src="https://user-images.githubusercontent.com/66886936/116956067-57846900-ac62-11eb-866c-7c676eb3f81f.png">
 
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the “pick” variable and its relationship with the other variables and in particular, noticed strong correlations between the order in the draft that the player was selected and that player's first year per-game statistics. In the case of our data, a negative correlation with pick means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game, rebounds per game, and assists per game, and examined these variables through a variety of other visualizations. 
 
