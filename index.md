@@ -71,7 +71,7 @@ We wanted to further examine what differentiated round one picks and round two p
 
 Furthermore, we looked to examine the relationship between the state that players played college basketball in and their average first year performances, so we created a heatmap of the average points per game of drafted players by the state that they played college basketball in. The visualization shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states. In order to do that, we added a couple of new columns to our data:
 
-<img width="1000" alt="Capture (2)" src="https://user-images.githubusercontent.com/66886936/118310165-3b7f9380-b4bc-11eb-92f2-6b36cd89e928.PNG">
+<img width="1300" alt="Capture (2)" src="https://user-images.githubusercontent.com/66886936/118310165-3b7f9380-b4bc-11eb-92f2-6b36cd89e928.PNG">
 
 
 The figure below shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states.
