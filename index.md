@@ -9,13 +9,15 @@ We wanted to observe the per-game statistics for each player, so we dropped vari
 
 After preprocessing, our dataset looks like:
 
-<img width="1800" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118307017-2274e380-b4b8-11eb-8dff-2426d98f58b4.png">
+<img width="1500" alt="Untitled" src="https://user-images.githubusercontent.com/66886936/118314414-1b52d300-b4c2-11eb-82f3-f424fe447c69.png">
 
 
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the pick (pk) variable and its relationship with the other variables. We noticed strong correlations between the order in the draft that the player was selected and that player’s first year statistics. In the case of our data, a negative correlation with pick (pk) means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game (PPG), total rebounds (RPG), and total assists (APG), and examined these variables through a variety of other visualizations.
 
 
-<img width="600" alt="nbaheatmap (1)" src="https://user-images.githubusercontent.com/66886936/118308107-91067100-b4b9-11eb-9016-5275b6d9c236.png">
+<img width="600" alt="nbaheatmap (2)" src="https://user-images.githubusercontent.com/66886936/118314179-c4e59480-b4c1-11eb-9656-8fe469a36180.png">
+
+
 
 In order to examine the average performance of each draft pick over the last eleven years, we created a line graph of important per-game statistics. The draft pick number is shown on the x-axis and the y-axis displays the average per-game value for each statistic. We chose to take a deeper look into points-per-game (PPG), rebounds-per-game (RPG), and assists-per-game (APG), as these stats are often regarded as the most important. Additionally, our correlation matrix showed that these variables have relatively strong negative correlations with the ‘pick’ variable. We can see that earlier picks generally outperform later picks, and in every case, the first round picks display significantly higher statistics.
 
@@ -30,7 +32,10 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 |     TSNE                        |   PCA   | 
 |:--------------------------------:|:--------------------:|
-|<img width="400" alt="nba_tsne" src="https://user-images.githubusercontent.com/66886936/116956986-a3d0a880-ac64-11eb-99cf-4da65f097720.png"> | <img width="400" alt="nba_pca" src="https://user-images.githubusercontent.com/66886936/116957223-57399d00-ac65-11eb-8097-b2e5a56908bc.png"> |
+|<img width="400" alt="nba_tsne (1)" src="https://user-images.githubusercontent.com/66886936/118314258-e5155380-b4c1-11eb-9896-597db46a0ef7.pngg"> | <img width="400" alt="nba_pca (1)" src="https://user-images.githubusercontent.com/66886936/118314236-daf35500-b4c1-11eb-9cf2-3bc478a7a5e5.png"> |
+
+
+
 
 From our PCA loadings, we can see that there are a few variables with high proportion of variance, which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
 
