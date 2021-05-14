@@ -30,7 +30,7 @@ Below is a data dictionary for our variables of interest in our analysis (correl
 | APG        | Assists per game       |
 
 
-The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the pick (pk) variable and its relationship with the other variables. We noticed strong correlations between the order in the draft that the player was selected and that player’s first year statistics. In the case of our data, a negative correlation with pick (pk) means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game (PPG), total rebounds (RPG), and total assists (APG), and examined these variables through a variety of other visualizations.
+The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the pick (pk) variable and its relationship with the other variables. We noticed strong correlations between the order in the draft that the player was selected and that player’s first year statistics. In the case of our data, a negative correlation with pick (pk) means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game (PPG), rebounds per game (RPG), and assists per game (APG), and examined these variables through a variety of other visualizations.
 
 
 <img width="600" alt="nbaheatmap (2)" src="https://user-images.githubusercontent.com/66886936/118314179-c4e59480-b4c1-11eb-9656-8fe469a36180.png">
@@ -41,8 +41,9 @@ In order to examine the average performance of each draft pick over the last ele
 
 <img width="800" alt="Dashboard 3 (4)" src="https://user-images.githubusercontent.com/66886936/118309382-2eae7000-b4bb-11eb-918c-9d1df4d53e14.png">
 
+All variables in our data dictionary were incorporated in our analysis below. 
 
-Since each NBA draft is broken into round one (picks 1-30) and round two (picks 31-60), we wanted to see if there was a significant difference in performance by round and expand on some of the insights from the line chart. We decided to perform TSNE on the NBA first-year performance by round to examine this idea. From the visualization we can see that while there is some overlap, rounds one and two are clustered. This suggests that players selected in round one generally perform like other players selected in round one with a similar relationship evident between round two players. Further this suggests that occasionally, a player selected in round one performs more like a player selected in round two and vice versa. 
+Since each NBA draft is broken into round one (picks 1-30) and round two (picks 31-60), we wanted to see if there was a significant difference in performance by round and expand on some of the insights from the line chart. We decided to perform TSNE on the NBA first-year performance by round to examine this idea. From the visualization we can see that while there is some overlap, rounds one and two are clustered. This suggests that players selected in round one generally perform like other players selected in round one with a similar relationship evident between round two players. Further this suggests that occasionally, a player selected in round one performs more like a player selected in round two and vice versa. This can be potentially explained by the cutoff between rounds, where players selected late in round one are expected to perform similar to players selected early in round two, which is supported by our line plot.  
 
 Similar to the TSNE analysis, we decided to perform PCA to examine first-year performance by round. Our results show more overlap than in the TSNE plot, however, there is still evident clustering for each round, which further supports our hypothesis from our TSNE analysis that players selected in round one can be generally differentiated from players selected in round two by looking at the player’s per-game statistics. 
 
@@ -55,7 +56,7 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 
 
-From our PCA loadings, we can see that there are a few variables with high proportion of variance, which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
+From our PCA loadings, we can see that there are a few variables with high proportion of variance (PPG, APG, PF, and TOV), which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
 
 <img width="231" alt="loadings" src="https://user-images.githubusercontent.com/66886936/116959370-72a7a680-ac6b-11eb-875a-490e688f360f.png">
 
