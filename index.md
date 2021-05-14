@@ -28,8 +28,8 @@ Similar to the TSNE analysis, we decided to perform PCA to examine first-year pe
 
 
 
-|TSNE                        | PCA   | 
-|--------------------------------|--------------------|
+|     TSNE                        |   PCA   | 
+|:--------------------------------:|:--------------------:|
 |<img width="400" alt="nba_tsne" src="https://user-images.githubusercontent.com/66886936/116956986-a3d0a880-ac64-11eb-99cf-4da65f097720.png"> | <img width="400" alt="nba_pca" src="https://user-images.githubusercontent.com/66886936/116957223-57399d00-ac65-11eb-8097-b2e5a56908bc.png"> |
 
 From our PCA loadings, we can see that there are a few variables with high proportion of variance, which indicates that those are the most influential variables. We can eliminate the other variables if we wanted to narrow down even more for further analysis.
@@ -40,7 +40,7 @@ From our PCA loadings, we can see that there are a few variables with high propo
 We wanted to further examine what differentiated round one picks and round two picks, so we looked at the age distributions of each round. The box plots reveal that the median age of players selected in round one is much lower than in round two. The median age for round one is twenty, while the median age for round two is twenty-two. Further the average age of players selected in round one are also substantially lower when compared to players selected in round two. This shows us that younger players are more likely to be picked earlier in the draft. Additionally the distribution of age of round one picks is right skewed, showing that while the majority of players were young, with many as young as nineteen, there were a few very old players making the distribution positively skewed. The distribution of age of round two picks appears normal, with a single outlier, but should be noted that the distribution is slightly left skewed as the mean is less than the mean. Additionally, we looked at the average points per game distributions by round. The box plot for round one shows that several players picked in the first round performed exceptionally well. These outliers reveal that round one picks have significantly higher ceilings than those picked in round two. Furthermore, the mean and median for the average points per game for round one picks are also noticeably higher than the mean and medians for the average points per game for round two picks. This further suggests that on average, players in round one score more points per game on average than players selected in round two. It should also be noted that both the distribution for round one and round two picks are slightly right skewed. 
 
 |Age                        | Points   | 
-|--------------------------------|--------------------|
+|:--------------------------------:|:--------------------:|
 |<img width="400" alt="rhlee@email wm edu (1)" src="https://user-images.githubusercontent.com/66886936/116957262-72a4a800-ac65-11eb-9ce7-293827a87119.png"> | <img width="400" alt="rhlee@email wm edu (2)" src="https://user-images.githubusercontent.com/66886936/116957481-f199e080-ac65-11eb-9df8-5ac632778701.png"> |
 
 Further, we looked to examine the relationship between the state that players played college basketball in and their average first year performances, so we created a heatmap of the average points per game of drafted players by the state that they played college basketball in. The visualization shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states. In order to do that, we added a couple of new columns to our data:
