@@ -15,11 +15,12 @@ After preprocessing, our dataset looks like:
 The first visualization we created was a correlation matrix with each of the potential variables of interest. Specifically, we examined the “pick” variable and its relationship with the other variables and in particular, noticed strong correlations between the order in the draft that the player was selected and that player's first year per-game statistics. In the case of our data, a negative correlation with pick means that the players drafted earlier outperformed the players that were picked later in the draft. We honed in on the negative correlations for points per game, rebounds per game, and assists per game, and examined these variables through a variety of other visualizations. 
 
 
-<img width="600" alt="download (1)" src="https://user-images.githubusercontent.com/66886936/116953555-9531c380-ac5b-11eb-91dc-02173b6067e2.png">
+<img width="600" alt="nbaheatmap (1)" src="https://user-images.githubusercontent.com/66886936/118308107-91067100-b4b9-11eb-9016-5275b6d9c236.png">
+
 
 In order to examine the average performance of each draft pick over the last eleven years, we created a line graph of important per-game statistics. The draft pick number is shown on the x-axis and the y-axis displays the average per-game value for each statistic. We chose to take a deeper look into points-per-game, rebounds-per-game, and assists-per-game, as these stats are often regarded as the most important and because from our correlation matrix, we have pinpointed these variables to have relatively strong negative correlations with the ‘pick’ variable. We can see that earlier picks generally outperform later picks, and in every case, the first round picks display significantly higher statistics. 
 
-<img width="800" alt="Dashboard 3 (2)" src="https://user-images.githubusercontent.com/66886936/116959022-5b1bee00-ac6a-11eb-98e6-e77d1a70ab4b.png">
+<img width="800" alt="Dashboard 3 (3)" src="https://user-images.githubusercontent.com/66886936/118308445-f35f7180-b4b9-11eb-971e-435c8761806e.png">
 
 
 Since each NBA draft is broken into round one (picks 1-30) and round two (picks 31-60), we wanted to see if there was a significant difference in performance by round and expand on some of the insights from the line chart. We decided to perform TSNE on the NBA first-year performance by round to examine this idea. From the visualization we can see that while there is some overlap, rounds one and two are clustered. This suggests that players selected in round one generally perform like other players selected in round one with a similar relationship evident between round two players. Further this suggests that occasionally, a player selected in round one performs more like a player selected in round two and vice versa. 
@@ -52,13 +53,13 @@ Further, we looked to examine the relationship between the state that players pl
 The figure below shows that players who were drafted from the state of Alabama performed substantially better than the players in the other states with an average 11.4 points per game in their first year. It also revealed that some states have had no draft picks in the past eleven years. From this heatmap we can see that players who play in certain states for college before being drafted into the NBA perform better than players from other states.
 
 
-<img width="1762" alt="Dashboard 1 (1)" src="https://user-images.githubusercontent.com/66886936/116958289-142cf900-ac68-11eb-89a9-67117ed5c4e5.png">
+<img width="1762" alt="Dashboard 1 (2)" src="https://user-images.githubusercontent.com/66886936/118308527-0bcf8c00-b4ba-11eb-90a2-6b2d6517fd78.png">
+
+
 
 Lastly, we also wanted to analyze the performance of NBA teams themselves, specifically how well they draft. This map shows each NBA team's location and the average first year points per game of their draft picks. The map reveals that a few teams, particularly the Charlotte Hornets, the Washington Wizards, the Cleveland Cavaliers, and the New York Knicks, generally pick players that average higher points per game in their first year than the rest of the NBA teams.
 
-<img width="1762" alt="Dashboard 2 (1)" src="https://user-images.githubusercontent.com/66886936/116958298-20b15180-ac68-11eb-9873-0a8249722789.png">
-
-
+<img width="1762" alt="Dashboard 2 (2)" src="https://user-images.githubusercontent.com/66886936/118308547-14c05d80-b4ba-11eb-97b3-dc4e83e952f4.png">
 
 
 
