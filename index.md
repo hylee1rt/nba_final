@@ -41,7 +41,7 @@ We wanted to further examine what differentiated round one picks and round two p
 
 |Age                        | Points   | 
 |:--------------------------------:|:--------------------:|
-|<img width="400" alt="nba_box_age (2)" src="https://user-images.githubusercontent.com/66886936/118311759-4fc49000-b4be-11eb-8767-702c21b05d29.png"> | <img width="400" alt="nba_box_pts (2)" src="https://user-images.githubusercontent.com/66886936/118311757-4e936300-b4be-11eb-8a3b-afbf17d1897b.png"> |
+|<img width="500" alt="nba_box_age (2)" src="https://user-images.githubusercontent.com/66886936/118311759-4fc49000-b4be-11eb-8767-702c21b05d29.png"> | <img width="500" alt="nba_box_pts (2)" src="https://user-images.githubusercontent.com/66886936/118311757-4e936300-b4be-11eb-8a3b-afbf17d1897b.png"> |
 
 
 
