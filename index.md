@@ -5,7 +5,7 @@ new players both from college and international leagues in a draft. Ultimately, 
 
 Our dataset originally had 32 columns, and 660 rows. Due to having a high number of features, it was important to focus in and pinpoint the specific features that relate to when a player is picked. We made it a priority to exclude irrelevant or potentially redundant data within our dataset. 
 
-We wanted to observe the per-game statistics for each player, so we dropped variables that were redundant (repetitive columns with different names) or not quantitative (such as name and college). Players with NULL values in their statistics did not play their first year, so we dropped those players. We ended up with 529 rows and 13 columns. 
+We wanted to observe the per-game statistics for each player, so we dropped variables that were redundant (repetitive columns with different names) or not quantitative (such as name and college). Players with NULL values in their statistics did not play their first year, so we dropped those players. We ended up with 529 rows and 14 columns. 
 
 After preprocessing, our dataset looks like:
 
@@ -19,13 +19,14 @@ Below is a data dictionary for our variables of interest in our analysis (correl
 | Pk.        | Pick                   |
 | Round      | Round                  |
 | Age        | Age drafted            |
-| STL        | Total age              |
+| PF         | Total fouls            |
+| STL        | Total steals           |
 | BLK        | Total blocks           |
 | TOV        | Total turnovers        |
-| PF         | Total fouls            |
 | FG%        | Field goal percentage  |
 | 3P%        | 3-Point percentage     |
 | FT%        | Free throw percentage  |
+| MP.1       | Minutes per game       |
 | PPG        | Points per game        |
 | RPG        | Rebounds per game      |
 | APG        | Assists per game       |
